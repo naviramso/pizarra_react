@@ -1,0 +1,18 @@
+.canvas {
+    position: static;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+#micanvas{
+    position: fixed;   
+}
+
+#figuras{ 
+    position: relative;
+    justify-self: center;
+    z-index: -1;
+    border: solid black;
+}
+

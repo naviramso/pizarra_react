@@ -1,0 +1,53 @@
+.container3 {
+    display: flex;
+    width: 20%;
+    height: 70%;
+    background-color: rgb(240, 240, 240);
+    position: fixed;
+    right: 0%;
+    top:0;   
+    z-index: 0;
+    flex-direction: column;
+    overflow-y: auto;  
+    border-radius:  25px;
+}
+
+.button-user {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.ficha {
+    width: 100;
+    border: solid black;
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+}
+
+.span {
+    width: 100px;
+    overflow:hidden;
+    font-size: small;
+    margin: 4px
+    
+}
+
+.admin {
+    width: 70px;
+    height: 30px;
+    background-color: gray;
+    margin: 5px;
+    border-radius: 10%;
+    cursor: pointer;
+}
+
+h3 {
+    margin-top: 30px;
+}

@@ -1,0 +1,100 @@
+.menu-container {
+    position: fixed;
+    display: flex;
+    top: calc(50% - 150px);
+    left: 2%;
+    width: 50px;
+    border-radius: 24px;
+    background-color: white;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 5px 0;
+
+}
+
+.button-menu {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    margin: 0 auto;
+    background: none;
+    border: none;
+    box-shadow: 1px 1px gray;
+    margin: 5px auto;
+    cursor: pointer;
+}
+
+
+
+.dropdown {
+    background-color: #21527afa;
+    position:relative;
+}
+
+.border {
+    border:yellow solid;
+}
+
+.button-menu:hover {
+    background-color: #21527afa;
+}
+
+.dropdown-content {
+    position:absolute;
+    left: 70px;
+    background-color: #f9f9f9;
+    min-width: 150px;
+    min-height: 70px;
+    box-shadow: 0px 8px 16px 0px black;
+    border-radius: 24px;
+    text-align: center;
+    padding: 10px auto;
+    z-index: 100;
+}
+
+
+.dropdown-content .button-menu{
+    margin:  auto 5px  ;
+}
+
+.range {
+    margin: 0 50px;
+}
+
+
+.black {
+    background-color: black;
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.green {
+    background-color: green;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.input-text {
+    
+    margin-left:  10px;
+    border-radius: 10px 0 0 10px;
+    height: 25px;
+    padding-left: 4px;
+}
+
+.button-text {
+    height: 30px;
+    border:none;
+    background-color:#000000;
+    cursor: pointer;
+    border-radius: 0 10px 10px 0;
+    margin-right: 10px;
+}
